@@ -6,5 +6,5 @@ tags={
 }
 name="Dynamic States and Cities Rename"
 supported_version="1.11.*"
-path="mod/dscr"
+path="mod/Dynamic-States-and-Cities-Rename-Beta-main"
 remote_file_id="2702203745"
