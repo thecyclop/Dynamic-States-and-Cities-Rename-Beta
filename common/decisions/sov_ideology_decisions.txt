@@ -1,0 +1,863 @@
+
+change_cities_names_sov = {
+	###################################RUSSIA##########################################
+	change_stalingrad_com = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 217 #stalingrad
+			has_government = communism
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = communism
+			}
+			NOT = {
+			    has_government = democratic
+			    has_government = fascism
+				has_government = neutrality
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 3529 name = "Stalingrad" }
+			217 = { set_state_name = "Stalingrad" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	change_stalingrad_dem = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 217 #stalingrad
+			has_government = democratic
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = democratic
+			}
+			NOT = {
+			    has_government = communism
+			    has_government = fascism
+				has_government = neutrality
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 3529 name = "Volgograd" }
+			217 = { set_state_name = "Volgograd" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	change_stalingrad_fas = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 217 #stalingrad
+			has_government = fascism
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = fascism
+			}
+			NOT = {
+			    has_government = communism
+			    has_government = democratic
+				has_government = neutrality
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 3529 name = "Volgograd" }
+			217 = { set_state_name = "Volgograd" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	change_stalingrad_neu = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 217 #stalingrad
+			has_government = neutrality
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = neutrality
+			}
+			NOT = {
+			    has_government = communism
+			    has_government = democratic
+				has_government = fascism
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 3529 name = "Tsarityn" }
+			217 = { set_state_name = "Tsarityn" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	change_leningrad_com = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 195 #leningrad
+			has_government = communism
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = communism
+			}
+			NOT = {
+			    has_government = neutrality
+			    has_government = democratic
+				has_government = fascism
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 3151 name = "Leningrad" }
+			195 = { set_state_name = "Leningrad" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	change_leningrad_dem = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 195 #leningrad
+			has_government = democratic
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = democratic
+			}
+			NOT = {
+			    has_government = neutrality
+			    has_government = communism
+				has_government = fascism
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 3151 name = "Sankt-Peterburg" }
+			195 = { set_state_name = "Sankt-Peterburg" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	change_leningrad_neu = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 195 #leningrad
+			has_government = neutrality
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = neutrality
+			}
+			NOT = {
+			    has_government = democratic
+			    has_government = communism
+				has_government = fascism
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 3151 name = "Sankt-Peterburg" }
+			195 = { set_state_name = "Sankt-Peterburg" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	change_leningrad_fas = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 195 #leningrad
+			has_government = fascism
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = fascism
+			}
+			NOT = {
+			    has_government = democratic
+			    has_government = communism
+				has_government = neutrality
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 3151 name = "Petrograd" }
+			195 = { set_state_name = "Petrograd" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	change_stalino_com = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 227 #stalino
+			has_government = communism
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = communism
+			}
+			NOT = {
+			    has_government = democratic
+			    has_government = fascism
+				has_government = neutrality
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 6474 name = "Stalino" }
+			227 = { set_state_name = "Stalino" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	change_stalino_dem = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 227 #stalino
+			has_government = democratic
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = democratic
+			}
+			NOT = {
+			    has_government = communism
+			    has_government = fascism
+				has_government = neutrality
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 6474 name = "Donetsk" }
+			227 = { set_state_name = "Donetsk" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	change_stalino_fas = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 227 #stalino
+			has_government = fascism
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = fascism
+			}
+			NOT = {
+			    has_government = communism
+			    has_government = democratic
+				has_government = neutrality
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 6474 name = "Donetsk" }
+			227 = { set_state_name = "Donetsk" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	change_stalino_neu = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 227 #stalino
+			has_government = neutrality
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = neutrality
+			}
+			NOT = {
+			    has_government = communism
+			    has_government = democratic
+				has_government = fascism
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 6474 name = "Hughesovka" }
+			227 = { set_state_name = "Hughesovka" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	change_stalinabad_com = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 742 #stalinabad
+			has_government = communism
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = communism
+			}
+			NOT = {
+			    has_government = neutrality
+			    has_government = democratic
+				has_government = fascism
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 1384 name = "Stalinabad" }
+			742 = { set_state_name = "Stalinabad" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	change_stalinabad_neu = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 742 #stalinabad
+			has_government = neutrality
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = neutrality
+			}
+			NOT = {
+			    has_government = communism
+			    has_government = democratic
+				has_government = fascism
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 1384 name = "Dushanbe" }
+			742 = { set_state_name = "Dushanbe" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	change_stalinabad_dem = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 742 #stalinabad
+			has_government = democratic
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = democratic
+			}
+			NOT = {
+			    has_government = communism
+			    has_government = neutrality
+				has_government = fascism
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 1384 name = "Dushanbe" }
+			742 = { set_state_name = "Dushanbe" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	change_stalinabad_fas = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 742 #stalinabad
+			has_government = fascism
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = fascism
+			}
+			NOT = {
+			    has_government = communism
+			    has_government = neutrality
+				has_government = democratic
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 1384 name = "Dushanbe" }
+			742 = { set_state_name = "Dushanbe" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	change_frunze_com = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 732 #frunze
+			has_government = communism
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = communism
+			}
+			NOT = {
+			    has_government = fascism
+			    has_government = neutrality
+				has_government = democratic
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 12583 name = "Frunze" }
+			732 = { set_state_name = "Pamir" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	change_frunze_fas = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 732 #frunze
+			has_government = fascism
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = fascism
+			}
+			NOT = {
+			    has_government = communism
+			    has_government = neutrality
+				has_government = democratic
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 12583 name = "Bishkek" }
+			732 = { set_state_name = "Pamir" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	change_frunze_neu = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 732 #frunze
+			has_government = neutrality
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = neutrality
+			}
+			NOT = {
+			    has_government = communism
+			    has_government = fascism
+				has_government = democratic
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 12583 name = "Bishkek" }
+			732 = { set_state_name = "Pamir" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	change_frunze_dem = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+			    original_tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 732 #frunze
+			has_government = democratic
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			OR = {
+				has_government = democratic
+			}
+			NOT = {
+			    has_government = communism
+			    has_government = fascism
+				has_government = neutrality
+			}
+		}
+
+		complete_effect = {
+			set_province_name = { id = 12583 name = "Bishkek" }
+			732 = { set_state_name = "Pamir" }
+			
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

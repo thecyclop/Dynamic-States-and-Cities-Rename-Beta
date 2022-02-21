@@ -2239,7 +2239,7 @@ apply_indian_name = {
     }
     if = {
         limit = {
-            state = 4967
+            state = 281
             NOT = {
                 has_state_flag = state_name_indian
             }

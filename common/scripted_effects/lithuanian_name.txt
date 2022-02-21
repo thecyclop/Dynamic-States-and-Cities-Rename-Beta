@@ -1828,7 +1828,7 @@ apply_lithuanian_name = {
     }
     if = {
         limit = {
-            state = 94
+            state = 194
             NOT = {
                 has_state_flag = state_name_lithuanian
             }

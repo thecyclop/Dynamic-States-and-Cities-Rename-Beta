@@ -16793,7 +16793,7 @@ apply_usa_name = {
                 has_state_flag = state_name_usa
             }
         }
-        set_state_name = "Indianapolis"
+        set_state_name = "Indiana"
 		
         clr_state_flag = state_name_abkhazian
         clr_state_flag = state_name_afghanistani
