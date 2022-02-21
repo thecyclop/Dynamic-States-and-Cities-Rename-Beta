@@ -1,0 +1,371 @@
+### Used for more than one country (example when the Chinese language is spoken in 6 countries) ###
+
+is_chinese_speaking_countries = {
+    
+	OR = {
+	    tag = CHI
+		tag = PRC
+		tag = GXC
+		tag = XSM
+		tag = SHX
+		tag = SIK
+		tag = MEN
+	}
+}
+
+is_german_speaking_countries = {
+
+    OR = {
+	    tag = GER
+		tag = AUS
+		tag = SWI
+		tag = SIL
+		tag = KSH
+		AND = {
+		    tag = UKR
+			UKR = { is_puppet_of = GER }
+		}
+		AND = {
+		    tag = HOL
+			HOL = { is_puppet_of = GER }
+		}
+		AND = {
+		    tag = BEL
+			BEL = { is_puppet_of = GER }
+		}
+		AND = {
+		    tag = BLR
+			BLR = { is_puppet_of = GER }
+		}
+		AND = {
+		    tag = NOR
+			NOR = { is_puppet_of = GER }
+		}
+	}
+}
+
+is_czechoslovak_country = {
+   
+    OR = {
+	    tag = CZE
+		tag= SLO
+	}
+}
+
+is_romanian_speaking_countries = {
+
+    OR = {
+	    tag = ROM
+		tag = MOL
+	}
+}
+
+is_yugoslavian_countries = {
+
+    OR = {
+	    tag = YUG
+		tag = KOS
+		tag = MAC
+		tag = BOS
+		tag = CRO
+		tag = SLV
+	}
+}
+
+is_albanian_speaking_countries = {
+
+    OR = {
+	    tag = ALB
+		tag = KOS
+    }
+}
+
+is_spanish_speaking_countries = {
+
+    OR = {
+	    tag = SPR
+		tag = SPA
+		tag = SPC
+		tag = SPB
+		tag = MEX
+		tag = GUA
+		tag = HON
+		tag = BLZ
+		tag = ELS
+		tag = NIC
+		tag = COS
+		tag = PAN
+		tag = CUB
+		tag = DOM
+		tag = COL
+		tag = VEN
+		tag = PRU
+		tag = ECU
+		tag = BOL
+		tag = CHL
+		tag = PAR
+		tag = URG
+		tag = ARG
+	}
+}
+
+is_french_speaking_countries = {
+
+    OR = {
+	    tag = FRA
+		tag = BEL
+    }
+}
+
+is_arab_speaking_countries = {
+
+    OR = {
+	    tag = SAU
+		tag = OMA
+		tag = YEM
+		tag = IRQ
+		tag = KUW
+		tag = UAE
+		tag = QAT
+		tag = JOR
+		tag = PAL
+		tag = SYR
+		tag = LEB
+		tag = EGY
+		tag = LBA
+		tag = TUN
+		tag = ALG
+		tag = MOR
+		tag = MRT
+		tag = CHA
+		tag = SUD
+		tag = WES
+	}
+}
+
+is_dutch_speaking_countries = {
+
+    OR = {
+	    tag = HOL
+		AND = {
+		    tag = INS
+			INS = { is_puppet_of = HOL }
+		}
+	}
+}
+
+is_finnish_countries = {
+
+    OR = {
+	    tag = FIN
+		tag = KAR
+	}
+}
+
+is_russian_countries = {
+
+    OR = {
+	    tag = SOV
+		tag = FER
+		tag = CRI
+		tag = VLA
+	}
+}
+
+is_english_countries = {
+
+    OR = {
+	    tag = ENG
+		tag = CAN
+		tag = SAF
+		tag = AST
+		tag= NZL
+		AND = {
+		    tag = IRE
+			IRE = { is_puppet_of = ENG }
+		}
+		AND = {
+		    tag = RAJ
+			RAJ = { is_puppet_of = ENG }
+		}
+		AND = {
+		    tag = MAL
+			MAL = { is_puppet_of = ENG }
+		}
+	}
+}
+
+is_american_countries = {
+
+    OR = {
+	    tag = USA
+		tag = PHI
+		tag = LIB
+	}
+}
+	
+is_malay_speaking_countries = {
+ 
+    OR = {
+	    tag = MAL
+		tag = INS
+	}
+}
+
+is_portuguese_speaking_countries = {
+
+    OR = {
+	    tag = POR
+		tag = BRA
+	}
+}
+
+is_mongol_countries = {
+    
+	OR = {
+	    tag = MON
+		tag = TAN
+	}
+}
+
+is_greek_countries = {
+    
+	OR = {
+	    tag = GRE
+		tag = CYP
+	}
+}
+
+is_turkish_countries = {
+    
+	OR = {
+	    tag = TUR
+		AND = {
+		    tag = CYP
+            CYP = { is_puppet_of = TUR }
+		}
+	}
+}
+
+is_polish_countries = {
+
+	OR = {
+	    tag = POL
+		AND = {
+		    tag = LIB
+			LIB = { is_puppet_of = POL }
+		}
+	}
+}
+
+is_serbian_countries = {
+
+    OR = {
+	    tag = SER
+		tag = MNT
+	}
+}
+
+is_nenets_countries = {
+
+    OR = {
+	    tag = NEN
+		tag = YAM
+	}
+}
+
+is_persian_countries = {
+
+    OR = {
+	    tag = PER
+		tag = KHI
+	}
+}
+
+is_uzbek_speaking_countries = {
+
+    OR = {
+	    tag = UZB
+		tag = BUK
+	}
+}
+
+is_pacific_countries = {
+
+    OR = {
+	    tag = GUM
+		tag = FSM
+		tag = FIJ
+		tag = SOL
+		tag = TAH
+		tag = SAM
+		tag = TAH
+		tag = HAW
+	}
+}
+
+is_african_nations = {
+
+    OR = {
+		tag = SEN
+		tag = GAM
+		tag = GNB
+		tag = MLI
+		tag = GNA
+		tag = SIE
+		tag = IVO
+		tag = VOL
+		tag = GHA
+		tag = TOG
+		tag = DAH
+		tag = NGR
+		tag = NGA
+		tag = CMR
+		tag = CAR
+		tag = EQG
+		tag = GAB
+		tag = RCG
+		tag = COG
+		tag = ERI
+		tag = DJI
+		tag = SOM
+		tag = ETH
+		tag = KEN
+		tag = UGA
+		tag = RWA
+		tag = BRD
+		tag = TZN
+		tag = ZAM
+		tag = ANG
+		tag = MLW`
+		tag = MZB
+		tag = ZIM
+		tag = BOT
+		tag = NMB
+		tag = MAD
+	}
+}
+
+is_austria_hungary = {
+
+    OR = {
+	    tag = HUN
+		HUN = { has_cosmetic_tag = HUN_EMPIRE }
+		tag = AUS
+		AUS = { has_cosmetic_tag = HUN_EMPIRE }
+		tag = CZE
+		CZE = { has_cosmetic_tag = HUN_EMPIRE }
+	}
+}
+
+is_roman_empire = {
+
+    OR = {
+	    tag = ITA
+		ITA = { has_cosmetic_tag = SPQR_UNIFIED }
+	}
+}
+
+are_name_enabled = {
+	has_global_flag = name_enabled
+}

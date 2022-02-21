@@ -1,0 +1,379 @@
+activate_name = {
+
+        if = { limit = { owner = { tag = JAP } }
+		    apply_japanese_name = yes
+	    }
+		
+	    else_if = { limit = { owner = { tag = KOR } }
+		    apply_korean_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_chinese_speaking_countries = yes } }
+			apply_chinese_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_german_speaking_countries = yes NOT = { AUS = { has_cosmetic_tag = HUN_EMPIRE } } } }
+		    apply_german_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_czechoslovak_country = yes NOT = { CZE = { has_cosmetic_tag = HUN_EMPIRE } } } }
+		    apply_czechoslovak_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_polish_countries = yes } }
+			apply_polish_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = HUN NOT = { HUN = { has_cosmetic_tag = HUN_EMPIRE } } } }
+		    apply_hungarian_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_romanian_speaking_countries = yes } }
+			apply_romanian_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = ITA NOT = { ITA = { has_cosmetic_tag = SPQR_UNIFIED } } } }
+			apply_italian_name = yes
+		}
+			
+		else_if = { limit = { owner = { is_greek_countries = yes } }
+			apply_greek_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_turkish_countries = yes } }
+			apply_turkish_name = yes
+		}
+	
+		else_if = { limit = { owner = { tag = BUL } }
+			apply_bulgarian_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_albanian_speaking_countries = yes } }
+			apply_albanian_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_yugoslavian_countries = yes } }
+			apply_yugoslavian_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = EST } }
+			apply_estonian_name = yes
+		}
+	
+		else_if = { limit = { owner = { tag = LAT } }
+			apply_latvian_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = LIT } }
+			apply_lithuanian_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_dutch_speaking_countries = yes } }
+			apply_dutch_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_french_speaking_countries = yes } }
+            apply_french_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = LUX } }
+			apply_luxembourgish_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_spanish_speaking_countries = yes } }
+			apply_spanish_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_portuguese_speaking_countries = yes } }
+			apply_portuguese_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_finnish_countries = yes } }
+		    apply_finnish_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = NOR } }
+			apply_norwegian_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = SWE } }
+			apply_swedish_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = DEN } }
+			apply_danish_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_russian_countries = yes } }
+			apply_russian_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = BLR } }
+			apply_belarusian_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = UKR } }
+		    apply_ukrainian_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_arab_speaking_countries = yes } }
+			apply_arab_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_english_countries = yes } }
+			apply_english_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = RAJ } }
+			apply_indian_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = PAK } }
+			apply_punjab_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = BAN } }
+			apply_bengali_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_malay_speaking_countries = yes } }
+			apply_malay_name = yes
+		}
+			
+		else_if = { limit = { owner = { is_american_countries = yes } }
+			apply_usa_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = ETH } }
+			apply_ethiopian_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = ISR } }
+			apply_israeli_name = yes
+		}
+			
+		else_if = { limit = { owner = { tag = SIA } }
+			apply_siam_name = yes
+		}
+	
+		else_if = { limit = { owner = { is_persian_countries = yes } }
+			apply_persian_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = AFG } }
+		    apply_afghanistani_name = yes
+		}
+
+		else_if = { limit = { owner = { is_mongol_countries = yes } }
+			apply_mongol_name = yes
+		}
+
+		else_if = { limit = { owner = { tag = TIB } }
+		    apply_tibetan_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = BHU } }
+	        apply_bhutan_name = yes
+		}
+			
+	    else_if = { limit = { owner = { tag = NEP } }
+			apply_nepal_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = ARM } }
+			apply_armenian_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = GEO } }
+			apply_georgian_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = KUR } }
+			apply_kurdistani_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = AZR } }
+			apply_azerbaijani_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = KAZ } }
+			apply_kazakhstani_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = TAJ } }
+			apply_tajikistani_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = KYR } }
+			apply_kyrgyzstani_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_uzbek_speaking_countries = yes } }
+			apply_uzbekistani_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = TMS } }
+			apply_turkmenistani_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = IRE } }
+		    apply_irish_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = SCO } }
+		    apply_scottish_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = WLS } }
+		    apply_welsh_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = ICE } }
+		    apply_icelandic_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = VIN } }
+		    apply_vietnamese_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = LAO } }
+		    apply_lao_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = CAM } }
+		    apply_khmer_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = BRM } }
+		    apply_burmese_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_serbian_countries = yes } }
+		    apply_serbian_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_nenets_countries = yes } }
+		    apply_nenets_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = KOM } }
+		    apply_komi_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = OVO } }
+		    apply_ostyak_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = TAY } }
+		    apply_taymyrian_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = YAK } }
+		    apply_sakha_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = CKK } }
+		    apply_chukotkan_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = BYA } }
+		    apply_buryatian_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = ALT } }
+		    apply_altai_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = BSK } }
+		    apply_bashkor_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = UDM } }
+		    apply_udmurtia_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = TAT } }
+		    apply_tatarstani_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = MEL } }
+		    apply_mariel_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = CHU } }
+		    apply_chuvas_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = KKP } }
+		    apply_karakal_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = VGE } }
+		    apply_volgagerman_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = KAL } }
+		    apply_kalmykian_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = DAG } }
+		    apply_dagestani_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = CIN } }
+		    apply_chechnyan_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = NOA } }
+		    apply_ossetian_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = KBK } }
+		    apply_kabardino_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = ABK } }
+		    apply_abkhazian_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = BRI } }
+		    apply_brittany_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = OCC } }
+		    apply_occitan_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = NAV } }
+		    apply_basque_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = CAT } }
+		    apply_catalonian_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = GLC } }
+		    apply_galician_name = yes
+		}
+		
+		else_if = { limit = { owner = { tag = COR } }
+		    apply_corsican_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_pacific_countries = yes } }
+		    apply_pacific_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_african_nations = yes } }
+		    apply_african_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_austria_hungary = yes } }
+		    apply_austrohungarian_name = yes
+		}
+		
+		else_if = { limit = { owner = { is_roman_empire = yes } }
+		    apply_roman_name = yes
+		}
+		
+		else = { reset_state_name = yes }
