@@ -159,8 +159,8 @@ change_cities_names_sov = {
 		}
 
 		complete_effect = {
-			set_province_name = { id = 3529 name = "Tsarityn" }
-			217 = { set_state_name = "Tsarityn" }
+			set_province_name = { id = 3529 name = "Tsaritsyn" }
+			217 = { set_state_name = "Tsaritsyn" }
 			
 		}
 
