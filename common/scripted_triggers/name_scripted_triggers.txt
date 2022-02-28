@@ -23,23 +23,23 @@ is_german_speaking_countries = {
 		tag = KSH
 		AND = {
 		    tag = UKR
-			UKR = { is_puppet_of = GER }
+			UKR = { has_cosmetic_tag = UKR_reichskommissariat }
 		}
 		AND = {
 		    tag = HOL
-			HOL = { is_puppet_of = GER }
+			HOL = { has_cosmetic_tag = HOL_reichskommissariat }
 		}
 		AND = {
 		    tag = BEL
-			BEL = { is_puppet_of = GER }
+			BEL = { has_cosmetic_tag = BEL_reichskommissariat }
 		}
 		AND = {
 		    tag = BLR
-			BLR = { is_puppet_of = GER }
+			BLR = { has_cosmetic_tag = BLR_reichskommissariat }
 		}
 		AND = {
 		    tag = NOR
-			NOR = { is_puppet_of = GER }
+			NOR = { has_cosmetic_tag = NOR_reichskommissariat }
 		}
 	}
 }

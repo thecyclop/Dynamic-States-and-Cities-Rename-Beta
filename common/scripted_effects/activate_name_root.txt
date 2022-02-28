@@ -68,11 +68,11 @@ activate_name_root = {
 			apply_lithuanian_name = yes
 		}
 		
-		else_if = { limit = { controller = { is_dutch_speaking_countries = yes } }
+		else_if = { limit = { controller = { is_dutch_speaking_countries = yes NOT = { HOL = { has_cosmetic_tag = HOL_reichskommissariat } } } }
 			apply_dutch_name = yes
 		}
 		
-		else_if = { limit = { controller = { is_french_speaking_countries = yes } }
+		else_if = { limit = { controller = { is_french_speaking_countries = yes NOT = { BEL = { has_cosmetic_tag = BEL_reichskommissariat } } } }
             apply_french_name = yes
 		}
 		
@@ -92,7 +92,7 @@ activate_name_root = {
 		    apply_finnish_name = yes
 		}
 		
-		else_if = { limit = { controller = { tag = NOR } }
+		else_if = { limit = { controller = { tag = NOR NOT = { NOR = { has_cosmetic_tag = NOR_reichskommissariat } } } }
 			apply_norwegian_name = yes
 		}
 		
@@ -108,11 +108,11 @@ activate_name_root = {
 			apply_russian_name = yes
 		}
 		
-		else_if = { limit = { controller = { tag = BLR } }
+		else_if = { limit = { controller = { tag = BLR NOT = { BLR = { has_cosmetic_tag = BLR_reichskommissariat } } } }
 			apply_belarusian_name = yes
 		}
 		
-		else_if = { limit = { controller = { tag = UKR } }
+		else_if = { limit = { controller = { tag = UKR NOT = { UKR = { has_cosmetic_tag = UKR_reichskommissariat } } } }
 		    apply_ukrainian_name = yes
 		}
 		
