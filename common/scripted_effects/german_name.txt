@@ -37927,7 +37927,7 @@ apply_german_name = {
                 has_state_flag = state_name_german
             }
         }
-        set_state_name = "Asam"
+        set_state_name = "Assam"
 		
         clr_state_flag = state_name_abkhazian
         clr_state_flag = state_name_afghanistani
@@ -38140,7 +38140,7 @@ apply_german_name = {
                 has_state_flag = state_name_german
             }
         }
-        set_state_name = "Nördasam"
+        set_state_name = "Nördassam"
 		
         clr_state_flag = state_name_abkhazian
         clr_state_flag = state_name_afghanistani
@@ -58887,7 +58887,7 @@ apply_german_name = {
                 has_state_flag = state_name_german
             }
         }
-        set_state_name = "Südinsel"
+        set_state_name = "Drygalski-Insel"
 		
         clr_state_flag = state_name_abkhazian
         clr_state_flag = state_name_afghanistani
@@ -59623,7 +59623,7 @@ apply_german_name = {
         clr_state_flag = state_name_yugoslavian        
         set_state_flag = state_name_german
         
-        set_province_name = { id = 2197 name = "Südhafen" }
+        set_province_name = { id = 2197 name = "Christuskirche" }
         set_province_name = { id = 2211 name = "Dunestadt" }        
     }
     if = {

@@ -423,7 +423,8 @@ apply_chinese_name = {
         clr_state_flag = state_name_welsh
         clr_state_flag = state_name_yugoslavian        
         set_state_flag = state_name_chinese
-                
+        
+        set_province_name = { id = 4973 name = "Hotan" }        
     }
     if = {
         limit = {
